@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="./08_get_form_data.html" method="get">
+        <h1>HTML FORM</h1>
+        
+        <label for="username">User Name : </label>
+        <input type="text" id="username" name="username" placeholder="Enter username" required>
+        
+        <br>
+        <br>
+        
+        <label for="passord">Passord : </label>
+        <input type="password" id="passord" name="passord" placeholder="Enter passord" required>
+        
+        <br>
+        <br>
+        
+        <label for="email">Email : </label>
+        <input type="email" id="email" name="email" placeholder="Enter email" required>
+
+        <br>
+        <br>
+
+        <h2>Select you gender : </h2>
+
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="Male">
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="Female">
+
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="Other">
+
+        <br>
+        <br>
+
+        <h2>Select you age range : </h2>
+        <label for="age-range">Age Range</label>
+        <select name="age-range">
+            <option value="0-10">0-10</option>
+            <option value="11-20">11-20</option>
+            <option value="21-30">21-30</option>
+            <option value="31-50">31-50</option>
+        </select>
+
+        <textarea rows="20" cols="20"></textarea>
+
+        <br>
+        <br>
+
+        <input type="submit" value="Submit">
+
+
+    </form>
+    
+</body>
+</html>
